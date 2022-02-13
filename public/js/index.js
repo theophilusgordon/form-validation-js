@@ -56,7 +56,7 @@ password.addEventListener('focusout', () => {
 signUpBtn.addEventListener('click', () => {
   errorMessages.forEach(errorMessage => {
     if(errorMessage.innerText === ''){
-      location.href = '/public/success.html'
+      location.href = 'public/success.html'
     }
   })
 });
